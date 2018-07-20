@@ -52,7 +52,7 @@ public class Nota implements Serializable {
     @NotNull
     @Size(min = 1, max = 2147483647)
     @Column(name = "nota2")
-    private String nota2;
+    private String nota22;
 
     public Nota() {
     }
@@ -65,7 +65,7 @@ public class Nota implements Serializable {
         this.idNota = idNota;
         this.estudiante = estudiante;
         this.nota1 = nota1;
-        this.nota2 = nota2;
+        this.nota22 = nota2;
     }
 
     public Integer getIdNota() {
@@ -93,11 +93,11 @@ public class Nota implements Serializable {
     }
 
     public String getNota2() {
-        return nota2;
+        return nota22;
     }
 
     public void setNota2(String nota2) {
-        this.nota2 = nota2;
+        this.nota22 = nota2;
     }
 
     @Override
